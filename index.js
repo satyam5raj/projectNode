@@ -14,7 +14,7 @@ app.get("/getName", async(req,res) => {
         var result = getALlName.rows
         // console.log(typeof result);
         for (var i=0; i< result.length; i++ ){
-            console.log(result[i])
+            // console.log(result[i])
             var a = result[i]["username"]
             console.log(a)
             array.push(a);
